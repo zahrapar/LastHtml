@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="recept på pannkakor, enkelt för alla.">
+    <!-- SEO -->
+    <meta name="description" content="recept på pannkakor, enkelt för alla.">
     <title>Pannkakor</title>  
     <link rel="stylesheet" href="style.css">
 </head>
@@ -26,9 +28,10 @@
         <div class="text">
         Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.</div>
 
-        <section class="ingredients-section"> 
-            <h2>Ingredienser</h2>
-            <p>För 4 portioner</p>
+        <section class="ingredients-section" aria-labelledby="ingredients-heading">
+        <h2 id="ingredients-heading">Ingredienser</h2>
+            <!-- <h2>Ingredienser</h2>
+            <p>För 4 portioner</p> -->
             <ul>
                 <li>2 1/2 dl vetemjöl</li>
                 <li>1/2 tsk salt</li>
@@ -40,8 +43,11 @@
          </section>
 
    
-        <section class="steps-section">
-        <h2>Så här gör du</h2>
+
+        <section class="steps-section" aria-labelledby="steps-heading">
+          <h2 id="steps-heading">Så här gör du</h2>
+            <!-- <section class="steps-section">
+            <h2>Så här gör du</h2> -->
             <ol>
                 <li>Blanda mjöl och salt i en bunke.</li>
                 <li>Vispa i hälften av mjölken och äggen och vispa till en slät smet.</li>
@@ -55,9 +61,11 @@
 
  
 
-        <section class="serveringsforslag">
-            <h2>Serveringsförslag</h2>
+     <section class="serveringsforslag" aria-labelledby="serving-heading">
+       <h2 id="serving-heading">Serveringsförslag</h2>
 
+        <!-- <section class="serveringsforslag">
+            <h2>Serveringsförslag</h2> -->
             <div class="gallery">
                <img src="Rectangle2.svg" alt="pannkaka 1">
                <img src="Rectangle3.png" alt="pannkaka 2">
@@ -66,6 +74,11 @@
 
    </main>
 </div>
+    <footer class="site-footer">
+       <div class="container">
+         <p>&copy; 2025 pannkaksrecept. Alla rättigheter förbehållna.</p>  
+        </div>
+    </footer>
 
 
 
